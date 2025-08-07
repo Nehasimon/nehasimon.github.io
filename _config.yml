@@ -1,0 +1,80 @@
+# Site settings
+title: "Neha Simon"
+email: nehasimon67@gmail.com
+description: >-
+  Data scientist | Bioinformatics & Genomics | AI/ML Enthusiast
+baseurl: "" # leave this empty for GitHub Pages user/organization site
+url: "https://nehasimon.github.io"
+minimal_mistakes_skin: default
+
+# Build settings
+markdown: kramdown
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+# Collections
+collections:
+  teaching:
+    output: true
+    permalink: /teaching/:path/
+  publications:
+    output: true
+    permalink: /publications/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# Navigation
+nav:
+  - title: "Home"
+    url: /
+  - title: "CV"
+    url: /files/NehaSimon_CV.pdf
+  - title: "Publications"
+    url: /publications/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Projects"
+    url: /projects/
+  - title: "Contact"
+    url: /contact/
+
+# Author profile
+author:
+  name   : "Neha Simon"
+  avatar : "/images/profile.jpg"
+  bio    : "Data Scientist | Bioinformatics & Genomics | Python, R, AWS"
+  location: "Washington, DC"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:your-email@example.com"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/yourusername"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/yourusername"
+    - label: "Twitter"
+      icon: "fab fa-twitter"
+      url: "https://twitter.com/your_twitter"
+
+# Permalinks
+permalink: /:categories/:title/
+
+# Markdown Options
+kramdown:
+  input: GFM
+  auto_ids: true
+
+# Google Analytics (optional)
+google_analytics: "UA-XXXXXXX-X" # Replace with your tracking ID or leave blank
+
+# Optional - Pagination
+paginate: 5
+paginate_path: "/page:num/"
