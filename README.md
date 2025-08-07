@@ -1,2 +1,2 @@
-# nehasimon.github.io
+# Bioinformatics Portfolio
 Code examples 
