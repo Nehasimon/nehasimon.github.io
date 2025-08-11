@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root{
+      --bg:#f5f0ff; --ink:#1f1c2e; --pill:#6c5ce7; --pillH:#5848c6; --card:#fff;
+    }
+    html,body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,Segoe UI,Roboto,Inter,Arial,sans-serif}
+    .wrap{max-width:900px;margin:0 auto;padding:32px 20px}
+    .content{background:var(--card);border-radius:18px;padding:28px;box-shadow:0 10px 25px rgba(0,0,0,.06),0 2px 6px rgba(0,0,0,.04)}
+    .side{position:fixed;right:18px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:12px;z-index:9}
+    .pill{display:inline-block;padding:10px 14px;border-radius:999px;background:var(--pill);color:#fff;text-decoration:none;font-weight:600;box-shadow:0 6px 18px rgba(108,92,231,.35)}
+    .pill:hover{background:var(--pillH)}
+    @media (max-width:720px){.side{right:12px}.content{padding:20px}}
+    a{color:#3b37b3}
+  </style>
+</head>
+<body>
+  <nav class="side" aria-label="Quick links">
+    {% for b in site.buttons %}
+      <a class="pill" href="{{ b.url | relative_url }}">{{ b.label }}</a>
+    {% endfor %}
+  </nav>
+
+  <div class="wrap">
+    <header><h1 style="margin:0 0 12px 0;"><a href="{{ "/" | relative_url }}" style="text-decoration:none;color:inherit">{{ site.title }}</a></h1></header>
+    <main class="content">
+      {{ content }}
+    </main>
+    <footer style="opacity:.7;margin-top:16px;font-size:.9rem">© {{ site.time | date: "%Y" }} {{ site.title }}</footer>
+  </div>
+</body>
+</html>
