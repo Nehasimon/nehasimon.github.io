@@ -1,67 +1,13 @@
-# Site settings
 title: "Neha Simon"
 email: nehasimon67@gmail.com
-description: >-
+description: >
   Data scientist | Bioinformatics & Genomics | AI/ML Enthusiast
-baseurl: ""   # leave this empty for GitHub Pages user/organization site
+baseurl: ""
 url: "https://nehasimon.github.io"
-
-# Theme
 theme: jekyll-theme-minimal
 
-# Plugins (GitHub Pages–safe)
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-# Collections (optional)
-collections:
-  teaching:
-    output: true
-    permalink: /teaching/:path/
-  publications:
-    output: true
-    permalink: /publications/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
-
-# Navigation (top links if you want to render them in your pages)
-nav:
-  - title: "Home"
-    url: /
-  - title: "CV"
-    url: /files/NehaSimon_CV.pdf
-  - title: "Publications"
-    url: /publications/
-  - title: "Teaching"
-    url: /teaching/
-  - title: "Projects"
-    url: /projects/
-  - title: "Contact"
-    url: /contact/
-
-# Side buttons (this is DATA; layout will render)
 buttons:
   - label: "Resume"
     url: "/resume/"
   - label: "Work Samples"
     url: "/samples.html"
-
-# Permalinks
-permalink: /:categories/:title/
-
-# Markdown
-markdown: kramdown
-kramdown:
-  input: GFM
-  auto_ids: true
-
-# Site-wide defaults so every page uses our custom layout automatically
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
