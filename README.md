@@ -1,5 +1,3 @@
-
-
 # Bioinformatics Portfolio
 
 ## INTRODUCTION
