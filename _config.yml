@@ -5,6 +5,7 @@ description: >-
   Data scientist | Bioinformatics & Genomics | AI/ML Enthusiast
 baseurl: ""   # leave this empty for GitHub Pages user/organization site
 url: "https://nehasimon.github.io"
+url: "https://www.linkedin.com/in/neha-simon"
 
 # Theme
 theme: jekyll-theme-minimal
@@ -50,20 +51,6 @@ buttons:
   - label: "Work Samples"
     url: "/samples.html"
 
-# Author profile (not used by jekyll-theme-minimal by default, but handy data)
-author:
-  name: "Neha Simon"
-  avatar: "/images/profile.jpg"
-  bio: "Data Scientist | Bioinformatics & Genomics | Python, R, AWS"
-  location: "Washington, DC"
-  links:
-    - label: "Email"
-      url: "mailto:nehasimon67@gmail.com"
-    - label: "GitHub"
-      url: "https://github.com/nehasimon"
-    - label: "LinkedIn"
-      url: "https://www.linkedin.com/in/neha-simon"
-
 # Permalinks
 permalink: /:categories/:title/
 
@@ -72,13 +59,6 @@ markdown: kramdown
 kramdown:
   input: GFM
   auto_ids: true
-
-# Analytics (optional)
-google_analytics:
-
-# Pagination (optional)
-paginate: 5
-paginate_path: "/page:num/"
 
 # Site-wide defaults so every page uses our custom layout automatically
 defaults:
