@@ -1,14 +1,4 @@
----
-title: Home
----
 
-<!-- Load your CSS from _layouts via inline include (folders that start with _ aren't served) -->
-<style>
-{% include_relative _layouts/style.css %}
-</style>
-
-<!-- Render your floating buttons from _layouts/buttons.html -->
-{% include_relative _layouts/buttons.html %}
 
 # Bioinformatics Portfolio
 
