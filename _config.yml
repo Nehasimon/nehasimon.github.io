@@ -1,4 +1,5 @@
 title: "Neha Simon"
+{% include buttons.html %}
 email: nehasimon67@gmail.com
 description: >
   Data scientist | Bioinformatics & Genomics | AI/ML Enthusiast
