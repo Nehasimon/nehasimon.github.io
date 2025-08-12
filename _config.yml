@@ -5,7 +5,6 @@ description: >-
   Data scientist | Bioinformatics & Genomics | AI/ML Enthusiast
 baseurl: ""   # leave this empty for GitHub Pages user/organization site
 url: "https://nehasimon.github.io"
-url: "https://www.linkedin.com/in/neha-simon"
 
 # Theme
 theme: jekyll-theme-minimal
