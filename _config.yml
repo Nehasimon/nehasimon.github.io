@@ -1,8 +1,6 @@
 title: "Neha Simon"
-{% include buttons.html %}
 email: nehasimon67@gmail.com
-description: >
-  Data scientist | Bioinformatics & Genomics | AI/ML Enthusiast
+description: "Data scientist | Bioinformatics & Genomics | AI/ML Enthusiast"
 baseurl: ""
 url: "https://nehasimon.github.io"
 theme: jekyll-theme-minimal
