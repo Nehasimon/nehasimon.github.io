@@ -1,5 +1,7 @@
 # Bioinformatics Portfolio
 
+{% include buttons.html %}
+
 ## INTRODUCTION
 Hi, I'm Neha Simon. Welcome to my Bioinformatics portfolio. I am a highly motivated bioinformatics professional with a passion for solving  biological problems using Machine learning methods. I have a Master's in Bioinformatics and Computational Biology and a Bachelor's in Neuroscience. My studies have given me experience in various areas of bioinformatics, including genomics, transcriptomics, and proteomics.
 
