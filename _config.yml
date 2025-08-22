@@ -8,6 +8,6 @@ theme: jekyll-theme-minimal
 
 buttons:
   - label: "Resume"
-    url: "/resume/"
+    url: "assets/Neha_Simon_bioinformatician.pdf"
   - label: "Work Samples"
     url: "/samples.html"
