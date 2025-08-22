@@ -1,5 +1,5 @@
-<nav class="side-buttons" aria-label="Quick links">
+<div class="side-buttons">
   {% for b in site.buttons %}
     <a class="pill" href="{{ b.url | relative_url }}">{{ b.label }}</a>
   {% endfor %}
-</nav>
+</div>
